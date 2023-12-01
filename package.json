@@ -1,0 +1,26 @@
+{
+  "name": "overleaf-interview-exercise1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-clsi": "node --watch clsi.js | pino-pretty",
+    "watch-web": "node --watch web.js | pino-pretty",
+    "start": "node web.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pino-google-cloud-format-transport": "^0.0.2",
+    "pino-http": "^8.5.0",
+    "prom-client": "^14.2.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^10.2.0",
+    "prettier": "^3.0.3"
+  },
+  "type": "module"
+}
